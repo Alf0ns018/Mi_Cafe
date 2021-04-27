@@ -6,22 +6,21 @@ class Header extends Component {
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <Link class="navbar-brand" to="/">Mi Casa Café</Link>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
-                            <li className="nav-item active">
-                                <Link className="nav-link" to="/"> Menú <span className="sr-only">(current)</span></Link>
+                    <Link className="navbar-brand" to="/home"> Mi Casa Café</Link>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                                <Link class="nav-link" to="menu"> Menú </Link>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#"> Conocenos</a>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="conocenos"> Conocenos</Link>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#"> Contacto</a>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/iniciars"> Iniciar Sesión </Link>
                             </li>
-
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/regis"> Registrar </Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>

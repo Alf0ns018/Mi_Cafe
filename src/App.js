@@ -3,8 +3,10 @@ import './App.css'
 import Header from './componentes/inicio/header';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Formu from './componentes/formularios/formuperso';
-import Sesión from './componentes/formularios/InicioSesion';
+import InicioS from './componentes/formularios/InicioSesion';
+import Registro from './componentes/formularios/formuperso';
+import Conocenos from './pages/Conocenos';
+import Menú from './pages/Menu';
 
 
 class App extends Component {
@@ -13,11 +15,13 @@ class App extends Component {
       <Router>
         <div className="container-fluid">
           <Header />
-          <Route path='/' exact component={Home} /> 
-          <Route path='/formu' exact component={Formu}/>
-          <Route path='/sesion' exact component={Sesión}/>
+          <Route path='/home' exact component={Home} />
+          <Route path='/menu' exact component={Menú} />
+          <Route path='/conocenos' exact component={Conocenos} />
+          <Route path= '/iniciars'exact component={InicioS}/>
+          <Route path= '/regis'exact component={Registro}/>
         </div>
-      </Router> 
+      </Router>
     );
   }
 }

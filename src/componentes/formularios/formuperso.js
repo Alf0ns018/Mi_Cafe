@@ -8,7 +8,7 @@ class formuperso extends Component {
                 <div class="card mt-4">
                     <div class="card-header">
                         Registro
-  </div>
+                             </div>
                     <div class="card-body">
                         <form>
                             <div className="form-group">
@@ -22,17 +22,17 @@ class formuperso extends Component {
                             </div>
                             <div className="form-group">
                                 <label for="exampleInputPassword1">Apellido Paterno</label>
-                                <input type="text" className="form-control" name=" Nombre " placeholder="Introduzca su Apellido Paterno" />
+                                <input type="text" className="form-control" name=" Apellido_Paterno " placeholder="Introduzca su Apellido Paterno" />
                             </div>
                             <div className="form-group">
                                 <label for="exampleInputPassword1">Apellido Materno</label>
-                                <input type="text" className="form-control" name=" Nombre " placeholder="Introduzca su Apellido Materno" />
+                                <input type="text" className="form-control" name=" Apellido_Materno " placeholder="Introduzca su Apellido Materno" />
                             </div>
                             <label for="inputPassword5" class="form-label">Contraseña</label>
                             <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" />
                             <div id="passwordHelpBlock" class="form-text">
                                 Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-</div>
+                                </div>
                             <button type="submit" className="btn btn-primary">Enviar</button>
                             <Link className="btn btn-primary" to="/" role="button">Regresar</Link>
                         </form>
