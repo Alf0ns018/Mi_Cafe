@@ -1,0 +1,9 @@
+.container{
+    border: 10px solid red;
+    min-height: calc(85vh);
+}
+
+.card{
+    height: auto;
+    width: 100%;
+}
