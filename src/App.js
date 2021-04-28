@@ -7,6 +7,7 @@ import InicioS from './componentes/formularios/InicioSesion';
 import Registro from './componentes/formularios/formuperso';
 import Conocenos from './pages/Conocenos';
 import Menú from './pages/Menu';
+import Footer from './componentes/footer/footer'
 
 
 class App extends Component {
@@ -20,6 +21,9 @@ class App extends Component {
           <Route path='/conocenos' exact component={Conocenos} />
           <Route path= '/iniciars'exact component={InicioS}/>
           <Route path= '/regis'exact component={Registro}/>
+
+          <br></br>
+          <Footer/>
         </div>
       </Router>
     );
