@@ -7,7 +7,8 @@ class Menu extends Component {
             <div>
                 <div class="example-container">
                     <div class="row">
-                        <div class="col-auto mr-auto"> <h4> ¿Qué se te antoja comer hoy? </h4></div>
+
+                        <div class="col-auto mr-auto"> <h4> ¿Qué se te antoja comer hoy? </h4> </div>
                         <div class="col-auto"> <div class="col-sm-1">  <Link className="btn btn-primary mt-1 " to="/" role="button">Regresar</Link> </div>
                         </div>
                     </div>
