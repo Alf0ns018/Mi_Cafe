@@ -6,14 +6,14 @@ class Header extends Component {
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <Link className="navbar-brand" to="/home"> Mi Casa Café</Link>
+                    <Link className="navbar-brand" to="/home"> Mi Casa Café </Link>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                        <li class="nav-item">
+                            <li class="nav-item">
                                 <Link class="nav-link" to="menu"> Menú </Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="conocenos"> Conocenos</Link>
+                                <Link class="nav-link" to="conocenos"> Conocenos </Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="/iniciars"> Iniciar Sesión </Link>

@@ -5,13 +5,15 @@ class Menu extends Component {
     render() {
         return (
             <div>
-                <Link className="btn btn-primary" to="/" role="button">Regresar</Link>
-                
-                <h4>
-                    Pagina de Menú
-                </h4>
-
+                <div class="example-container">
+                    <div class="row">
+                        <div class="col-auto mr-auto"> <h4> ¿Qué se te antoja comer hoy? </h4></div>
+                        <div class="col-auto"> <div class="col-sm-1">  <Link className="btn btn-primary mt-1 " to="/" role="button">Regresar</Link> </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         )
     }
 }
