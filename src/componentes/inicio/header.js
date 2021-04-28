@@ -13,7 +13,7 @@ class Header extends Component {
                                 <Link class="nav-link" to="menu"><b>Menú</b></Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="conocenos"> Conocenos</Link>
+                                <Link class="nav-link" to="conocenos"> Conocenos </Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="/iniciars"> Iniciar Sesión </Link>
