@@ -1,9 +1,21 @@
-.container{
-    border: 10px solid red;
-    min-height: calc(85vh);
-}
+
 
 .card{
     height: auto;
     width: 100%;
+}
+
+
+.vacio{
+    border-top: 20px solid rgb(255, 145, 0);
+    height: 50px;
+    width: 350px;
+   
+    padding: 0;
+    
+}
+
+.card-text{
+    font-size: 20px;
+    color: rgb(255, 145, 0);
 }

@@ -22,6 +22,7 @@ class App extends Component {
           <Route path='/conocenos' exact component={Conocenos} />
           <Route path= '/iniciars'exact component={InicioS}/>
           <Route path= '/regis'exact component={Registro}/>
+          <br></br>
           <Footer />
         </div>
       </Router>

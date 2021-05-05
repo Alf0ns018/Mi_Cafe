@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import './header.css'
 
 class Header extends Component {
     render() {
         return (
-            <div>
+            <div id="header">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <Link className="navbar-brand" to="/home"> Mi Casa Café</Link>
                     <div class="collapse navbar-collapse" id="navbarNav">
