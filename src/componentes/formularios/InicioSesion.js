@@ -5,6 +5,7 @@ class InicioSesion extends Component {
     render() {
         return (
             <div>
+
                 <div className="card mt-3">
                     <div class="card-header">
                         Inicio de Sesión
@@ -18,13 +19,17 @@ class InicioSesion extends Component {
                             <label for="exampleInputPassword1" class="form-label">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1" />
                         </div>
+
                         <button type="submit" class="btn btn-primary">Enviar</button>
                         <Link className="btn btn-primary" to="/" role="button">Regresar</Link>
                     </form>
                 </div>
+                
             </div>
         )
     }
 }
 
 export default InicioSesion;
+
+

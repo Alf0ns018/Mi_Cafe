@@ -5,7 +5,7 @@ class formuperso extends Component {
     render() {
         return (
             <div>
-                <div class="card mt-4">
+                <div class="card mt-5">
                     <div class="card-header">
                         Registro
                              </div>
@@ -29,10 +29,8 @@ class formuperso extends Component {
                                 <input type="text" className="form-control" name=" Apellido_Materno " placeholder="Introduzca su Apellido Materno" />
                             </div>
                             <label for="inputPassword5" class="form-label">Contraseña</label>
-                            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" />
-                            <div id="passwordHelpBlock" class="form-text">
-                                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-                                </div>
+                            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji." />
+                            
                             <button type="submit" className="btn btn-primary">Enviar</button>
                             <Link className="btn btn-primary" to="/" role="button">Regresar</Link>
                         </form>
