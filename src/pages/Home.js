@@ -5,7 +5,6 @@ import Slide from '../componentes/carrusel/slide'
 class Home extends Component {
     render() {
         return (    
-<<<<<<< HEAD
             <div class="container">    
             <div class="card">
             <div class="card-body">
@@ -19,11 +18,6 @@ class Home extends Component {
             </div>
             </div>
             </div> 
-=======
-           <div>
-
-           </div>
->>>>>>> 2f3bec0b2f5dd37d302a9ea5b83005c3a4afcf88
 
         )
     }

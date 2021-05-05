@@ -23,12 +23,12 @@ class footer extends React.Component {
   <h1>Redes Sociales</h1>
   
   <div class="row">
-      <img src="https://www.flaticon.es/svg/vstatic/svg/733/733547.svg?token=exp=1618434233~hmac=ff7b9eb94bc8e6572bc155c4da1ae9d5"></img>
+      <img src="https://www.flaticon.es/svg/vstatic/svg/733/733547.svg?token=exp=1620243129~hmac=562e27bb41241af574858bac29343109"></img>
       <label>Siguenos en Facebook</label>
   </div>
   
   <div class="row">
-      <img src="https://www.flaticon.es/svg/vstatic/svg/2111/2111463.svg?token=exp=1618434308~hmac=d40fcc9e2078317b9a0a175b743bab27"></img>
+      <img src="https://www.flaticon.es/svg/vstatic/svg/2111/2111463.svg?token=exp=1620243171~hmac=9f24f7515f1961979e5dda6c15689556"></img>
       <label>Siguenos en Instagram</label>
   </div>
   </div>
