@@ -20,11 +20,10 @@ class InicioSesion extends Component {
                             <input type="password" class="form-control" id="exampleInputPassword1" />
                         </div>
 
-                        <button type="submit" class="btn btn-primary mt-1">Enviar</button>
-                        <Link className="btn btn-primary mt-1" to="/" role="button">Regresar</Link>
+                        <button type="submit" class="btn btn-primary mt-2">Enviar</button>
+                        <Link className="btn btn-primary mt-2" to="home" role="button">Regresar</Link>
                     </form>
-                </div>
-                
+                </div> 
             </div>
         )
     }

@@ -12,7 +12,7 @@ class Menu extends Component {
                         </div>
                     </div>
                 </div>
-                <div class="col-auto"> <div class="col-sm-1">  <Link className="btn btn-primary mt-1 " to="/" role="button">Regresar</Link> </div>
+                <div class="col-auto"> <div class="col-sm-1">  <Link className="btn btn-primary mt-1 " to="/home" role="button">Regresar</Link> </div>
                 </div>
             </div>
         )
