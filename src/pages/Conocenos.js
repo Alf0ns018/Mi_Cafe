@@ -6,8 +6,9 @@ class Conocenos extends Component {
     render() {
         return (
             <div>
-                
+
             </div>
+
         )
     }
 }
