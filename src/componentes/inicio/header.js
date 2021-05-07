@@ -7,11 +7,11 @@ class Header extends Component {
         return (
             <div id="header">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <Link className="navbar-brand" to="/home"> Mi Casa Café</Link>
+                    <Link className="navbar-brand" to="/home"> <b> Mi Casa Café </b> </Link>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                         <li class="nav-item">
-                                <Link class="nav-link" to="menu"><b>Menú</b></Link>
+                                <Link class="nav-link" to="menu"> Menú </Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="conocenos"> Conocenos </Link>
