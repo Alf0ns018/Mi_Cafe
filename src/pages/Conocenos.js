@@ -6,7 +6,9 @@ class Conocenos extends Component {
     render() {
         return (
             <div>
-esta es la pagina conocenos
+                esta es la pagina conocenos
+                <br></br>
+                <Link className="btn btn-warning mt-2" to="home" role="button">Regresar</Link>
             </div>
 
         )
