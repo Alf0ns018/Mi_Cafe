@@ -14,7 +14,6 @@ class Home extends Component {
                 <Slide />
                 <br></br>
                 <p class="card-text"><strong>Categorias</strong></p>
-                
             </div>
             </div>
             </div> 

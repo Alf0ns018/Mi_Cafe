@@ -6,25 +6,26 @@ class InicioSesion extends Component {
         return (
             <div>
 
-                <div className="card mt-3">
+                <div class="card text-center bg-primary mb-2">
                     <div class="card-header">
-                        Inicio de Sesión
-                        </div>
-                    <form>
-                        <div className="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                        </div>
-                        <div className="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" />
-                        </div>
+                        Iniciar Sesión
+                     </div>
 
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                        <Link className="btn btn-primary" to="/" role="button">Regresar</Link>
-                    </form>
+                    <div class="card-body bg-light mb-3">
+                        <form>
+                            <div className="form-group">
+                                <label for="exampleInputEmail1">Ingrese su Email</label>
+                                <input type="email" className="form-control text-center" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                            </div>
+
+                            <label for="inputPassword5" class="form-label">Contraseña</label>
+                            <input type="password" id="inputPassword5" class="form-control text-center" aria-describedby="passwordHelpBlock" placeholder="Enter Password" />
+
+                            <button type="submit" class="btn btn-warning bg- mx-2 mt-2">Enviar</button>
+                            <Link className="btn btn-warning mt-2" to="home" role="button">Regresar</Link>
+                        </form>
+                    </div>
                 </div>
-                
             </div>
         )
     }
