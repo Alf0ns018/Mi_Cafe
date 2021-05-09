@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,12 +7,12 @@ class formuperso extends Component {
     render() {
         return (
             <div>
-                <div class="card text-center bg-primary mb-3">
+                <div class="tarjeta text-center">
                     <div class="card-header">
                         Registro
                      </div>
 
-                    <div class="card-body bg-light mb-3">
+                    <div class="card-body ">
                         <form>
                             <div className="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
