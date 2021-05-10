@@ -7,6 +7,7 @@ import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import reportWebVitals from './reportWebVitals';
+import Home from './pages/Home'
 
 ReactDOM.render(
   <React.StrictMode>
