@@ -19,7 +19,7 @@ class Headerv2 extends Component {
                         </li>
 
                         <li class="nav-item">
-                            <Link class="nav-link" to="conocenos">Conocenos</Link>
+                            <Link class="nav-link" to="Quienes_Somos">¿Quienes Somos?</Link>
                         </li>
                     </ul>
 

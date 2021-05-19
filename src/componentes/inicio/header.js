@@ -10,11 +10,11 @@ class Header extends Component {
                     <Link className="navbar-brand" to="/home"> <b> Mi Casa Café </b> </Link>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                        <li class="nav-item">
+                            <li class="nav-item">
                                 <Link class="nav-link" to="menu"> Menú </Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="conocenos"> Conocenos </Link>
+                                <Link class="nav-link" to="Quienes_Somos">¿Quienes Somos?</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="/iniciars"> Iniciar Sesión </Link>
