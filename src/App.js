@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import InicioS from './componentes/formularios/InicioSesion';
 import Registro from './componentes/formularios/formuperso';
-import Conocenos from './pages/Conocenos';
+import Somos from "./pages/Somos";
 import Menú from './pages/Menu';
 import Footer from './componentes/footer/footer'
 import Alitas from './pages/Categorias/Alitas/alitas'
@@ -23,7 +23,7 @@ class App extends Component {
           <br></br>
           <Route path='/home' exact component={Home} />
           <Route path='/menu' exact component={Menú} />
-          <Route path='/conocenos' exact component={Conocenos} />
+          <Route path='/Quienes_Somos' exact component={Somos} />
           <Route path= '/iniciars'exact component={InicioS}/>
           <Route path= '/regis'exact component={Registro}/>
           <Route path= '/Alitas'exact component={Alitas}/>
