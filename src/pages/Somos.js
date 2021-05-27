@@ -32,7 +32,10 @@ class Somos extends Component {
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
-                                La principal meta de Mi Casa Café es hacer de los clientes
+                                <ul>
+                                    <li> Ofrecer un servicio y una calidad de productos que nos caracterice por a excelencia
+                                        y nos diferencie de la competencia </li>
+                                </ul>
                           </div>
                         </div>
                     </div>
@@ -46,7 +49,8 @@ class Somos extends Component {
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <div class="card-body">
-                                Ser portadores
+                            Alimentar a los clientes y consumidores con productos saludable, sabrosos y de alta calidad
+
                             </div>
                         </div>
                     </div>
@@ -60,7 +64,11 @@ class Somos extends Component {
                         </div>
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                             <div class="card-body">
-                                Cumplir con las necesidades
+                            Ser reconocidas como una de las mayores empresas en el sector alimentario, 
+                            posicionándonos estratégicamente y aspirando a transformar la industria 
+                            alimentaria en un negocio socialmente responsable, saludable, transparente 
+                            y sostenibles gracias a que satisfacemos las diversas necesidades del 
+                            consumidor todos los días siendo líderes de productos confiables.
                             </div>
                         </div>
                     </div>
